@@ -6,11 +6,16 @@
  *
  * Return: 0
  */
-int main(void){
-	char c = 'a';
-	while(a <= 'z'){
+int main(void)
+{
+	char a = 'a';
+
+	while (a <= 'z')
+	{
 		putchar(a);
 		a++;
 	}
+
 	putchar('\n');
-	return(0);}
+	return (0);
+}
