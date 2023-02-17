@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	char c = 'a';
+
+	while(a <= 'z')
+	{
+		putchar(a);
+		a++;
+	}
+
+	c = 'A';
+
+	while (a <= 'Z')
+	{
+		putchar(a);
+		a++;
+	}
+	putchar('\n');
+	return (0);
+}
