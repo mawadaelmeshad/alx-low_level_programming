@@ -1,12 +1,7 @@
 void _puts_recursion(char *);
-
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	_puts_recursion("First, solve the problem. Then, write the code");
-	return (0);
-}
+void _print_rev_recursion(char *s);
+int _strlen_recursion(char *s);
+int factorial(int n);
+int _pow_recursion(int x, int y);
+int _sqrt_recursion(int n);
+int is_prime_number(int n);
